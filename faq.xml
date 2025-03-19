@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs>
+   <faq>
+       <question>What can be found on our menu?</question>
+       <answer> <link href="http://127.0.0.1:5500/menu.html">Visit Our Menu</link></answer>
+   </faq>
+   <faq>
+       <question>What are your opening hours?</question>
+       <answer> Monday-Friday 10am-8pm, Saturday 10am-10pm, Sunday 2pm-10pm.</answer>
+   </faq>  
+   <faq>
+       <question>What are your opening hours?</question>
+       <answer> Monday-Friday .</answer>
+   </faq> 
+</faqs>

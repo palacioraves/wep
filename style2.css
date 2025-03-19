@@ -1,0 +1,105 @@
+/* General Style */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:#8f3f29;
+}
+
+.card img {
+    width: 100%;       
+    height: 400px;     
+    object-fit: cover; 
+}
+
+/*Three columns side by side*/
+.column {
+    float: left;
+    width: 48% ;
+    margin-bottom: 16px;
+    background-color:antiquewhite;
+    color:black;
+    padding: 0 8px;
+    
+}
+
+/*Responsive*/
+@media screen and (max-width: 650px) {
+    .column {
+        width:100%;
+        display: block;
+    }
+}
+
+/*Shadows for card effect*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2);
+}
+
+
+/*Clear floats*/
+.container::after, .row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.title {
+    color:rgb(133, 93, 53);
+}
+
+
+/*Link Styling*/
+style
+a:link, a:visited {
+    background-color:black ;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color:#d54c23;
+}
+
+/*===============
+FAQ Section Styles
+==================*/
+
+#faq-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.1);
+}
+
+.faq {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    background: #8f3f29;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.question:hover {
+    background: #d54c23;
+}
+
+.answer {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background: peru;
+    border-radius: 5px;
+}
